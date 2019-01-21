@@ -8,6 +8,8 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	color: #887777;
+    /* plan to switch background */
+	background: #F1f1f1 url(images/white-waves.png) repeat;
 }
 
 .current_page_item {
@@ -37,32 +39,32 @@ a {
 
 strong {
 	font-weight: 700;
-	color: #3d32a1;
+	color: #1f1977;
 }
 
-/* UL Style for Books Bar */
+/* UList type 1 */
 
-ul {
+ul.type1 {
 	margin: 0em;
 	padding: 0em;
 	list-style: none;
 }
 
-ul li {
+ul.type1 li {
 	padding: 1.25em 0em 2.5em 0em;
 	background: url(images/img02.jpg) repeat-x left top;
 }
 
-ul a {
+ul.type1 a {
 	text-decoration: none;
 	color: #7C6E49;
 }
 
-ul a:hover {
+ul.type1 a:hover {
 	text-decoration: underline;
 }
 
-ul .date {
+ul.type1 .date {
 	display: inline-block;
 	margin: 0em 0em 1.56em 0em;
 	padding: 0.35em 0.63em;
@@ -76,11 +78,54 @@ ul .date {
 	color: #FFFFFF;
 }
 
-ul .date a {
+ul.type1 .date a {
 	color: #FFFFFF;
 }
 
-ul img {
+ul.type1 img {
 	float: left;
 	margin-right: 1.5em;
 }
+
+/* UList type 2 */
+
+/*
+header and headerimg eventually have a separate header for desktop, mobile display
+*/
+#header {
+	position: relative;
+	padding: 3em 0em;
+}
+
+/* header image and text, eventually move */
+
+#headerimg {
+	position: absolute;
+	top: 3em;
+	left: 0;
+}
+
+#headerimg h1
+{
+	float: left;
+}
+
+#headerimg h1 a {
+	padding: 0.5em 0.25em 0em 0em;
+	text-decoration: none;
+	text-transform: none;
+	font-family: 'Trebuchet', sans-serif;
+	font-size: 2.5em;
+	font-weight: 200;
+	color: #1C1C1C;
+}
+
+#headerimg span {
+	float: left;
+	padding: 1em 0em 0em 0em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	font-style: italic;
+	color: #545454;
+}
+
