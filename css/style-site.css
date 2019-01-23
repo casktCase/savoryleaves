@@ -65,7 +65,7 @@ ul.type1 a:hover {
 }
 
 ul.type1 .date {
-	display: inline-block;
+	display: inline-block;b
 	margin: 0em 0em 1.56em 0em;
 	padding: 0.35em 0.63em;
 	background: url(images/img02.jpg) repeat-x left top;
@@ -102,7 +102,7 @@ header and headerimg eventually have a separate header for desktop, mobile displ
 #headerimg {
 	position: absolute;
 	top: 3em;
-	left: 0;
+	left: 10px;
 }
 
 #headerimg h1
@@ -114,8 +114,8 @@ header and headerimg eventually have a separate header for desktop, mobile displ
 	padding: 0.5em 0.25em 0em 0em;
 	text-decoration: none;
 	text-transform: none;
-	font-family: 'Trebuchet', sans-serif;
-	font-size: 2.5em;
+	font-family: 'Verdana', sans-serif;
+	font-size: 1.5em;
 	font-weight: 200;
 	color: #1C1C1C;
 }
@@ -129,3 +129,49 @@ header and headerimg eventually have a separate header for desktop, mobile displ
 	color: #545454;
 }
 
+/*  navigation  */
+
+#nav {
+	position: absolute;
+	top: 3em;
+	right: 0;
+}
+
+#nav ul {
+	float: right;
+	text-align: center;
+}
+
+#nav li {
+	display: inline-block;
+}
+
+#nav a {
+	display: block;
+	float: left;
+	margin-right: 0.12em;
+	padding: 0.75em 1.5em;
+	text-decoration: none;
+	text-transform: none;
+	font-family: 'Verdana' , sans-serif;
+	font-size: 1.25em;
+	color: #4b4949;
+}
+
+/*  Featured image, may need to move  */
+#feature {
+	overflow: hidden;
+	margin: 3em 0em;
+	background: url(images/img02.jpg) repeat-x left bottom;
+}
+
+#feature .container {
+	margin-bottom: 3em;
+	padding: 1.87em;
+	background: #eeeeee url(images/img02.png) repeat;
+}
+
+#feature a img {
+	display: block;
+	width: 100%;
+}
