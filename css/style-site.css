@@ -170,6 +170,24 @@ header and headerimg eventually have a separate header for desktop, mobile displ
 	text-shadow: none;
 }
 
+#footer {
+	position: relative;
+		padding: 3em 0em;
+		text-align: center;
+		color: #333;
+		background: #888;
+}
+
+#footer .container
+{
+
+}
+
+#footer a {
+	text-decoration: none;
+		color: #535353;
+}
+
 
 /*  Featured image, may need to move  */
 #feature {
@@ -189,9 +207,38 @@ header and headerimg eventually have a separate header for desktop, mobile displ
 	width: 100%;
 }
 
-/* Wrapper Desktop browser only?*/
+/* Wrapper - Desktop browser only?*/
 #wrapper {
 	overflow: hidden;
 	margin: 5em 5em 3em 5em;
+}
+
+/*  content separator  */
+#content {
+		overflow: hidden;
+		background: url(images/img02.jpg) repeat-x left bottom;
+}
+
+/* Frame div contains a repeatable"blog post" style space */
+
+#frame {
+}
+
+#frame h2{
+	padding: 0em 0em 2em 0em;
+	font-size: 1.5em;
+}
+
+#frame img {
+	padding: 0em 0em 1.5em 0em;
+}
+
+#frame a img {
+	display: block;
+	width: 100%;
+}
+
+#frame .entry {
+	padding: 0em 0em 2.5em 0em;
 }
                    
