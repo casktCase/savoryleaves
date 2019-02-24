@@ -1,0 +1,9 @@
+body {
+	font-size: 9pt;
+	line-height: 1.25em;
+}
+/* Header */
+
+#header {
+	display: none;
+}
