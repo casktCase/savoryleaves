@@ -6,8 +6,8 @@ body {
 	color: #887777;
     /* plan to switch background */
 	background: #F1f1f1 url(images/white-waves.png) repeat;
-	/* switch this when mobile user */
-	min-width: 1200px;
+	/* switch this when mobile user 
+	min-width: 1200px;*/
 }
 
 .current_page_item {
@@ -18,7 +18,7 @@ h1, h2, h3 {
 	margin: 0em;
 	padding: 0em;
 	text-transform: none;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Encode Sans Condensed', sans-serif;
 	font-weight: 300;
 	color: #887644;
 }
@@ -71,7 +71,7 @@ ul.type1 .date {
 	letter-spacing: 0.06em;
 	line-height: none;
 	text-transform: none;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Encode Sans Condensed', sans-serif;
 	font-weight: 200;
 	color: #FFFFFF;
 }
@@ -92,7 +92,7 @@ ul.type1 img {
 #nav {
 	position: absolute;
 	top: 3em;
-	right: 0;
+	right: 0.5em;
 }
 
 #nav ul {
@@ -139,13 +139,12 @@ ul.type1 img {
 #feature {
 	overflow: hidden;
 	margin: 3em 0em;
-	background: url(images/img02.jpg) repeat-x left bottom;
 }
 
 #feature .container {
 	margin-bottom: 3em;
 	padding: 1.87em;
-	background: #eeeeee url(images/img02.jpg) repeat;
+	background: #eeeeee;
 }
 
 #feature a img {
@@ -231,7 +230,7 @@ ul.type1 img {
 	text-decoration: none;
 	text-shadow: none;
 	text-transform: none;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Encode Sans Condensed', sans-serif;
 	font-size: 1em;
 	font-weight: 200;
 	color: #FFFFFF;
