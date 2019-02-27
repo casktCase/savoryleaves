@@ -16,11 +16,11 @@ body {
 
 h1, h2, h3 {
 	margin: 0em;
-	padding: 0em;
+	/*padding: 1em 2em ;*/
 	text-transform: none;
 	font-family: 'Encode Sans Condensed', sans-serif;
 	font-weight: 300;
-	color: #887644;
+	color: #666666;
 }
 
 h2 {
@@ -55,7 +55,7 @@ ul.type1 li {
 
 ul.type1 a {
 	text-decoration: none;
-	color: #7C6E49;
+	color: rgb(114, 114, 114);
 }
 
 ul.type1 a:hover {
@@ -113,7 +113,7 @@ ul.type1 img {
 	text-transform: none;
 	font-family: 'Verdana' , sans-serif;
 	font-size: 1.25em;
-	color: #4b4949;
+	color: #4b4b4b;
 }
 
 #footer {
@@ -142,8 +142,8 @@ ul.type1 img {
 }
 
 #feature .container {
-	margin-bottom: 3em;
-	padding: 1.87em;
+	margin-bottom: 1em;
+	padding: 1.1em;
 	background: #eeeeee;
 }
 
