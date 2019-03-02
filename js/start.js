@@ -15,10 +15,16 @@ skel.init({
                 collapse: true,
                 gutters: 10
             }
-        },
+        }/*,
+        'mid': {
+            range: '481-960',
+            containers: 'fluid',
+            //containers: 960
+        }*/,
         'full': {
             range: '481-',
-            containers: 1000
+            containers: 'fluid',
+            //containers: 1000
         }
     }
 }, {

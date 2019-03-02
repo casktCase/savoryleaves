@@ -66,6 +66,7 @@ body {
 			position: absolute;
 			left: 15px;
 			top: 15px;
+			background: url('images/mobileUI-site-nav-opener-bg.svg') 0px 0px no-repeat;
 			opacity: 1;
 		}
 
@@ -106,9 +107,9 @@ body {
 #content {
 }
 
-#content h2 {
-	padding: 1em 0em 1em 0em;
-	font-size: 1.75em;
+h2 {
+	padding: 5px;
+	font-size: 1.25em;
 }
 
 #content .subtitle {
@@ -130,8 +131,8 @@ body {
 	width: 100%;
 }
 
-#content .post {
-	padding: 0em 0em 1.87em 0em;
+.post {
+	margin: 22px;
 }
 
 #content section {
@@ -139,7 +140,7 @@ body {
 }
 
 
-        #navPanel
+#navPanel
 {
 	background: #303030;
 	font-weight: 400;
@@ -161,16 +162,23 @@ body {
 		padding: 0 1em 0 1em;
 	}
 	
-	#navPanel .link:first-child
-	{
-		border-top: 0;
-	}
+		#navPanel .link:first-child
+		{
+			border-top: 0;
+		}
 		
-	#navPanel .link.depth-0
-	{
-		font-weight: 600;
-		color: #fff;
-    }
+		#navPanel .link.depth-0
+		{
+			font-weight: 600;
+			color: #fff;
+		}
+
+		#navPanel .indent-1 { display: inline-block; width: 1em; }
+		#navPanel .indent-2 { display: inline-block; width: 2em; }
+		#navPanel .indent-3 { display: inline-block; width: 3em; }
+		#navPanel .indent-4 { display: inline-block; width: 4em; }
+		#navPanel .indent-5 { display: inline-block; width: 5em; }
+		#navPanel .depth-0 { color: #fff; }
     
 
 

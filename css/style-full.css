@@ -4,6 +4,7 @@
 #wrapper {
 	 overflow: hidden; 
 	padding: 2em 0em 2em 0em;
+	width: auto;
 }
 
 .homepage #wrapper {
@@ -22,7 +23,7 @@ header and headerimg
 
 
 #header-wrapper {
-	padding: 0em 0em 2em 0em;
+	padding: 0em 0em 0em 0em;
 }
 
 
@@ -107,7 +108,7 @@ header and headerimg
 
 #banner a img {
 	display: block;
-	width: 100%;
+	width: auto;
 }
 
 /* Content */
@@ -124,6 +125,7 @@ header and headerimg
 #content h2 {
 	padding: 0em 0em 1em 0em;
 	font-size: 2.5em;
+	width: auto;
 }
 
 #content img {
@@ -135,8 +137,8 @@ header and headerimg
 	width: 100%;
 }
 
-#content .post {
-	padding: 0em 0em 2.5em 0em;
+.post {
+	margin: 22px;
 }
 
 /** Footer Column Content */
