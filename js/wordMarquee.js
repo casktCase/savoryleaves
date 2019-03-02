@@ -2,15 +2,9 @@
 // It shows in the element <div id="motd">motd</div>
 // Starting off with 7-14 showing on days of the week and time of day later on.
 // in the future aim to make it more random and maybe add a unique picture element
-
 function getMotd() {
 
-    var now = new Date();
-    //0=Sunday, 1=Monday, ...
-    var nowDay = now.getDay();
-    //time in hour format
-    //var nowHour = now.getHours;
-    //var nowMinute = now.getMinutes;
+    var nowDay = dateTimeHelper('day');
     var motd = "";
 
     switch (nowDay) {
@@ -52,6 +46,49 @@ function getMotd() {
 
 }
 
+//Picture Of The Time
+//Depending on the hour of day, a different picture shows in the pott element
+
+function getPott() {
+
+    var nowhour = dateTimeHelper('hour');
+    var pott = '';
+
+    if (nowhour < 13) {
+        pott = '<a href="#"><img src="images/hourly/hourly' + nowhour + '.jpg" alt=""></a>';
+    } else {
+        pott = '<a href="#"><img src="images/hourly/hourly' + (nowhour - 12) + '.jpg" alt=""></a>';
+    }
+
+    document.getElementById("pott").innerHTML = pott;
+}
+
+//helper function to return date time used by multiple Fn in this file
+function dateTimeHelper(typeResult) {
+
+    var result = '';
+    var now = new Date();
+
+    switch (typeResult) {
+        case "day":
+            //0=Sunday, 1=Monday, ...
+            result = now.getDay();
+            break;
+        case "hour":
+            result = now.getHours();
+            break;
+        case "minute":
+            result = now.getMinutes();
+            break;
+        default:
+            result = 'error';
+            break;
+    }
+    return result;
+
+}
+
 window.onload = function () {
     getMotd();
+    getPott();
 }
