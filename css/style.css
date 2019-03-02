@@ -29,6 +29,7 @@ h2 {
 
 p {
 	line-height: 170%;
+	padding: 10px;
 }
 
 a {
@@ -50,7 +51,7 @@ ul.type1 {
 
 ul.type1 li {
 	padding: 1.25em 0em 2.5em 0em;
-	background: url(images/img02.jpg) repeat-x left top;
+	/*background: url(images/img02.jpg) repeat-x left top;*/
 }
 
 ul.type1 a {
@@ -157,7 +158,7 @@ ul.type1 img {
 /*  content separator  */
 #content {
 		overflow: hidden;
-		background: url(images/img02.jpg) repeat-x left bottom;
+		background: url(images/img022.jpg) repeat-x left bottom;
 }
 
 /* Frame div contains a repeatable"blog post" style space */
