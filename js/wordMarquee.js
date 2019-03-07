@@ -43,6 +43,8 @@ function getMotd() {
 
     }
     document.getElementById("motd").innerHTML = motd;
+    //looking to change header text color, try modifying this and making a fn
+    //document.getElementById('headerimg').style.color = Math.floor(Math.random() * 16777215).toString(16);
 
 }
 

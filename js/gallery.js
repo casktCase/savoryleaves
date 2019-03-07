@@ -2,6 +2,7 @@ function getGallery() {
 
     var result = '';
     var numImages = 23;
+    var numImageShowing = 9;
     var imageSize = 220;
     var randomList = [];
 
@@ -11,7 +12,7 @@ function getGallery() {
 
     randomList = shuffle(randomList);
 
-    for (i = 0; i < randomList.length; i++) {
+    for (i = 0; i < numImageShowing; i++) {
 
         result += ' <div class="brick"><img width=' + imageSize + ' src="images/about/about' + randomList[i] + '.jpg"></div>';
         //the below commented out result returns a random size based on an array var imageSizes = [220,300,190]
